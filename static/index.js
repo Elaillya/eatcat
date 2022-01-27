@@ -451,10 +451,10 @@ function shareText(score) {
     if (deviation_time > __Time * 1000 + 3000) {
         return '实际时间比设置时间多了' + ((deviation_time / 1000) - __Time).toFixed(2) + "秒，本次成绩作废哦！";
     }
-    if (score <= 2.5 * __Time) return '加油！我相信您可以的！';
-    if (score <= 5 * __Time) return '^_^ 加把劲，底力大王就是您！';
-    if (score <= 7.5 * __Time) return '您！';
-    if (score <= 10 * __Time) return '太 您 了！';
+    if (score <= 2.5 * __Time) return '峰峰生气了！';
+    if (score <= 5 * __Time) return '峰峰，你吗什么时候**啊？';
+    if (score <= 7.5 * __Time) return '宁就是峰峰猎马人？';
+    if (score <= 10 * __Time) return '人？';
     return '您是外星人嘛？';
 }
 
